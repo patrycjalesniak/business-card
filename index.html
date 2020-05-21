@@ -8,24 +8,29 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1>Hellow world</h1>
     <main class="main">
-      <article>
-        <img src="avatar.png" alt="Zdjęcie Imię i nazwisko" />
-        <header>
-          <h1>Patrycja Leśniak</h1>
-          <p>future frontend developer</p>
+      <article class="person">
+        <img
+          class="person__picture"
+          src="avatar-wizytówka.png"
+          alt="Zdjęcie Patrycja Leśniak"
+        />
+        <header class="person__info">
+          <h1 class="person__name">Patrycja Leśniak</h1>
+          <p class="person__position">future frontend developer</p>
         </header>
-        <p>
-          Przyszła programistka z kilkugodzinnym doświadczeniem, pragnąca
+        <p class="person__description">
+          Przyszła programistka z <strong class="special"> kilkugodzinnym doświadczeniem</strong>, pragnąca
           spełnić jeden z założonych celów - wkroczyć w kręgi świata frontendu.
-          Aktualnie Pani "piguła" farmaceutka. Zawsze uśmiechnięta i pozytywnie
+          Aktualnie "piguła" <strong class="special">farmaceutka</strong>. Zawsze uśmiechnięta i pozytywnie
           podchodząca do życia. Uwielbia podróże, często zamieszcza wspomienia
           na swoich portalach społecznościowych. Kocha elegancję i minimalizm, a
           przy tym eksperymentuje z nowymi trendami modowymi. W wolnym czasie
           uprawia sport i zaszywa się w zgiełku natury.
         </p>
-        <p>W sieci : Facebook, GitHub, Instagram.</p>
+        <p class="person__description">
+          W sieci :<a class="person__link" href="#"> Facebook </a>, <a class="person__link" href="x"> GitHub</a>, <a class="person__link" href="c">Instagram</a>.
+        </p>
       </article>
     </main>
   </body>
